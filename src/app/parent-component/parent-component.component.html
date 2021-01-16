@@ -1,0 +1,8 @@
+<app-child-component
+  [valueFromParent]="parentVariable"
+  (valueGoesToParent)="valueFromChild($event)"
+></app-child-component>
+
+<h2>
+  {{ childVariable }}
+</h2>

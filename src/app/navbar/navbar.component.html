@@ -1,0 +1,16 @@
+<!-- <mat-tab-group>
+  <mat-tab label="Home"> <app-home></app-home> </mat-tab>
+  <mat-tab label="Shop Table"> 
+      <app-shop-table></app-shop-table> </mat-tab>
+</mat-tab-group> -->
+
+<nav mat-tab-nav-bar>
+  <a
+    mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
+    (click)="link"
+  >
+    {{ link.label }}
+  </a>
+</nav>

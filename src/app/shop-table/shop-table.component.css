@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  background-color: goldenrod;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.search-wrapper {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  padding: 10px;
+}
+.search-box {
+  width: 80%;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 15px;
+  position: relative;
+  padding: 10px;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
